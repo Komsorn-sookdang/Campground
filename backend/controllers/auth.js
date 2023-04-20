@@ -5,17 +5,30 @@ const User = require("../models/User");
 // @route  POST /api/v1/auth/google
 // @access Public
 exports.loginViaGoogle = async (req, res, next) => {
+  const tokenId = req.body.tokenId;
+  if (!tokenId) {
+    return res
+      .status(400)
+      .json({ success: false, msg: "Please provide a token" });
+  }
+
   const client = new OAuth2Client(process.env.GOOGLE_CLIENT_ID);
 
-  const ticket = await client.verifyIdToken({
-    idToken: req.body.tokenId,
-    audience: process.env.GOOGLE_CLIENT_ID,
-  });
+  try {
+    const ticket = await client.verifyIdToken({
+      idToken: tokenId,
+      audience: process.env.GOOGLE_CLIENT_ID,
+    });
+    console.log(ticket);
 
-  const payload = ticket.getPayload();
+    const payload = ticket.getPayload();
 
-  console.log(payload);
-  res.status(200).json({ success: true, data: payload });
+    console.log(payload);
+    res.status(200).json({ success: true, data: payload });
+  } catch (err) {
+    console.log(err.stack);
+    res.status(400).json({ success: false, msg: "Invalid token" });
+  }
 };
 
 // @desc    Register user
