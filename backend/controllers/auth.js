@@ -21,6 +21,9 @@ exports.validate = (method) => {
         body("password", "Password is required").trim().notEmpty(),
       ];
     }
+    case "google": {
+      return [body("tokenId", "Token is required").trim().notEmpty()];
+    }
     default: {
       return [];
     }
@@ -49,8 +52,20 @@ exports.loginViaGoogle = async (req, res, next) => {
 
     const payload = ticket.getPayload();
 
-    console.log(payload);
-    res.status(200).json({ success: true, data: payload });
+    const googleId = payload.sub;
+
+    var user = await User.findOne({ googleId: googleId });
+    if (!user) {
+      user = await User.create({
+        name: payload.name,
+        email: payload.email,
+        googleId: googleId,
+        role: "user",
+      });
+    }
+
+    // console.log(payload);
+    sendTokenResponse(user, 200, res);
   } catch (err) {
     console.log(err.stack);
     res.status(400).json({ success: false, msg: "Invalid token" });

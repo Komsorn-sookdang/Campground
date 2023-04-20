@@ -13,9 +13,9 @@ const router = express.Router();
 const { protect } = require("../middleware/auth");
 
 router.post("/register", validate("register"), register);
-router.post("/login", login);
+router.post("/login", validate("login"), login);
 router.get("/me", protect, getMe);
 router.get("/logout", logout);
-router.post("/google", loginViaGoogle);
+router.post("/google", validate("google"), loginViaGoogle);
 
 module.exports = router;
