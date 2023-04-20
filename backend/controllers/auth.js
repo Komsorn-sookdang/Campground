@@ -1,5 +1,31 @@
 const { OAuth2Client } = require("google-auth-library");
+const { body, validationResult } = require("express-validator");
 const User = require("../models/User");
+
+exports.validate = (method) => {
+  switch (method) {
+    case "register": {
+      return [
+        body("name", "Please add a name").trim().notEmpty(),
+        body("tel", "Please add a telephone number").trim().notEmpty(),
+        body("email", "Please add a valid email").trim().notEmpty().isEmail(),
+        body("password", "Please add a password with 6 or more characters")
+          .notEmpty()
+          .isLength({ min: 6 }),
+        body("role", "Please add a role").notEmpty().isIn(["user", "admin"]),
+      ];
+    }
+    case "login": {
+      return [
+        body("email", "Email is required").trim().notEmpty().isEmail(),
+        body("password", "Password is required").trim().notEmpty(),
+      ];
+    }
+    default: {
+      return [];
+    }
+  }
+};
 
 // @desc   Login via Google
 // @route  POST /api/v1/auth/google
@@ -36,6 +62,12 @@ exports.loginViaGoogle = async (req, res, next) => {
 // @access  Public
 exports.register = async (req, res, next) => {
   try {
+    const errors = validationResult(req);
+
+    if (!errors.isEmpty()) {
+      return res.status(400).json({ success: false, errors: errors.array() });
+    }
+
     const { name, email, password, role } = req.body;
 
     // Create user

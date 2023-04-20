@@ -3,6 +3,8 @@ const dotenv = require("dotenv");
 const cookieParser = require("cookie-parser");
 const connectDB = require("./config/db");
 const auth = require("./routes/auth");
+const expressValidator = require("express-validator");
+const bodyParser = require("body-parser");
 
 dotenv.config({ path: "./config/config.env" });
 
@@ -10,6 +12,8 @@ connectDB();
 
 const app = express();
 app.use(express.json());
+app.use(bodyParser.json());
+// app.use(expressValidator);
 app.use(cookieParser());
 
 app.use("/api/v1/auth", auth);
