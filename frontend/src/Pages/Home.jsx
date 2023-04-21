@@ -1,16 +1,8 @@
 import styled from "styled-components";
-import { GoogleLogin } from "react-google-login";
 import { gapi } from "gapi-script";
 import { useEffect } from "react";
 
-const Container = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-`;
-
-const Home = () => {
+const HomePage = () => {
   const clientId =
     "483816555687-l4opuns0drglkh1rfg4nrh8esvvci09b.apps.googleusercontent.com";
 
@@ -33,17 +25,10 @@ const Home = () => {
   };
 
   return (
-    <Container>
-      <GoogleLogin
-        clientId={clientId}
-        buttonText="Login with Google"
-        onSuccess={onSuccess}
-        onFailure={onFailure}
-        cookiePolicy={"single_host_origin"}
-        isSignedIn={true}
-      />
-    </Container>
+    <div>
+      <p>Home Page</p>
+    </div>
   );
 };
 
-export default Home;
+export default HomePage;

@@ -1,19 +1,22 @@
 import logo from "./logo.svg";
 import "./App.css";
-import { Provider } from "react-redux";
-import store from "./Redux";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./Pages/Home";
+import HomePage from "./Pages/Home";
+import LoginPage from "./Pages/Login";
 
 function App() {
   return (
-    <Provider store={store}>
+    <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<HomePage />} />
+          <Route path="/login" element={<LoginPage />} />
         </Routes>
       </BrowserRouter>
-    </Provider>
+      <ToastContainer />
+    </>
   );
 }
 
