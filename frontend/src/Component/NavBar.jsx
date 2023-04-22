@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import styled from "styled-components";
 
 const Container = styled.div`
@@ -53,6 +54,7 @@ const Logo = styled.p`
 const NavBar = () => {
   const [show, setShow] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
+  const navigate = useNavigate();
 
   const controlNavbar = () => {
     if (typeof window !== "undefined") {
@@ -91,7 +93,13 @@ const NavBar = () => {
       </Options>
       <Profile>
         <Option>Register</Option>
-        <Option>Login</Option>
+        <Option
+          onClick={() => {
+            navigate("/login");
+          }}
+        >
+          Login
+        </Option>
       </Profile>
     </Container>
   );

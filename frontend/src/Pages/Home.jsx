@@ -49,6 +49,7 @@ const HomePage = () => {
           <BGImage src={require("../Asset/home-bg.jpg")} alt="" />
           <FateOut />
         </ImageTitle>
+        {/* <p>1234</p>
         <p>1234</p>
         <p>1234</p>
         <p>1234</p>
@@ -76,8 +77,7 @@ const HomePage = () => {
         <p>1234</p>
         <p>1234</p>
         <p>1234</p>
-        <p>1234</p>
-        <p>1234</p>
+        <p>1234</p> */}
       </Body>
     </>
   );
