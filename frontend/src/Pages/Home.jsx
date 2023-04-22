@@ -1,33 +1,85 @@
 import styled from "styled-components";
-import { gapi } from "gapi-script";
-import { useEffect } from "react";
+import NavBar from "../Component/NavBar";
+
+const Body = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100vw;
+  background-color: #f5f5f5;
+`;
+
+const ImageTitle = styled.div`
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  hight: auto;
+  z-index: 0;
+`;
+
+const BGImage = styled.img`
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+`;
+
+const FateOut = styled.div`
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 8%;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+`;
 
 const HomePage = () => {
-  const clientId =
-    "483816555687-l4opuns0drglkh1rfg4nrh8esvvci09b.apps.googleusercontent.com";
-
-  useEffect(() => {
-    const initClient = () => {
-      gapi.client.init({
-        clientId,
-        scope: "",
-      });
-    };
-    gapi.load("client:auth2", initClient);
-  }, []);
-
-  const onSuccess = (res) => {
-    console.log("[Login Success] currentUser:", res);
-  };
-
-  const onFailure = (res) => {
-    console.log("[Login Failed] res:", res);
-  };
-
   return (
-    <div>
-      <p>Home Page</p>
-    </div>
+    <>
+      <NavBar />
+      <Body>
+        <ImageTitle>
+          <BGImage src={require("../Asset/home-bg.jpg")} alt="" />
+          <FateOut />
+        </ImageTitle>
+        <p>1234</p>
+        <p>1234</p>
+        <p>1234</p>
+        <p>1234</p>
+        <p>1234</p>
+        <p>1234</p>
+        <p>1234</p>
+        <p>1234</p>
+        <p>1234</p>
+        <p>1234</p>
+        <p>1234</p>
+        <p>1234</p>
+        <p>1234</p>
+        <p>1234</p>
+        <p>1234</p>
+        <p>1234</p>
+        <p>1234</p>
+        <p>1234</p>
+        <p>1234</p>
+        <p>1234</p>
+        <p>1234</p>
+        <p>1234</p>
+        <p>1234</p>
+        <p>1234</p>
+        <p>1234</p>
+        <p>1234</p>
+        <p>1234</p>
+        <p>1234</p>
+        <p>1234</p>
+      </Body>
+    </>
   );
 };
 
