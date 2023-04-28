@@ -47,6 +47,13 @@ exports.getAppointment = async (req,res,next)=>{
             return res.status(404).json({success:false, message: `No appointment with the id of ${req.params.id}`});
         }
 
+        if (appointment.user.toString()!== req.user.id && req.user.role !== 'admin') {
+            return res.status(401).json({
+                success:false,
+                message: `User ${req.user.id} is not authorized to view this appointment`
+            });
+        }
+
         return res.status(200).json({
             success:true,
             data: appointment
