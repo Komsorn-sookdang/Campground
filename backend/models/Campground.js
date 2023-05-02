@@ -29,7 +29,7 @@ CampgroundSchema.pre('remove', async function(next) {
 CampgroundSchema.virtual('bookings', {
     ref: 'Booking',
     localField: '_id',
-    foreignField: 'Campground',
+    foreignField: 'campground',
     justOne: false
 });
 
