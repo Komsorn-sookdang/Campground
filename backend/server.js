@@ -3,7 +3,7 @@ const dotenv = require("dotenv");
 const cookieParser = require("cookie-parser");
 const connectDB = require("./config/db");
 const campgrounds = require('./routes/campground')
-const appointments = require('./routes/appointment')
+const bookings = require('./routes/booking')
 const auth = require("./routes/auth");
 const expressValidator = require("express-validator");
 const bodyParser = require("body-parser");
@@ -22,7 +22,7 @@ app.use(cookieParser());
 
 app.use('/api/v1/campgrounds', campgrounds);
 app.use("/api/v1/auth", auth);
-app.use('/api/v1/appointments', appointments);
+app.use('/api/v1/bookings', bookings);
 
 const PORT = process.env.PORT || 5000;
 

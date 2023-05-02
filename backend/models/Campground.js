@@ -19,15 +19,15 @@ const CampgroundSchema = new mongoose.Schema({
     toJSON: {virtuals: true},
     toObject: {virtuals: true}
 });
-// Cascade delete appointments when a Campground is deleted
+// Cascade delete bookings when a Campground is deleted
 CampgroundSchema.pre('remove', async function(next) {
-    console.log(`Appointments being removed from Campground ${this._id}`);
-    await this.model('Appointment').deleteMany({Campground: this._id});
+    console.log(`Bookings being removed from Campground ${this._id}`);
+    await this.model('Booking').deleteMany({Campground: this._id});
     next();
 });
 // Reverse populate with virtuals
-CampgroundSchema.virtual('appointments', {
-    ref: 'Appointment',
+CampgroundSchema.virtual('bookings', {
+    ref: 'Booking',
     localField: '_id',
     foreignField: 'Campground',
     justOne: false
