@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import { GoogleLogin } from "@react-oauth/google";
-import { gapi } from "gapi-script";
 import { useEffect, useState, useRef } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
@@ -12,6 +11,8 @@ const Container = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 100vw;
+  height: 100vh;
 `;
 
 const LoginPage = () => {
@@ -45,17 +46,17 @@ const LoginPage = () => {
         isLoading: false,
         autoClose: 5000,
       });
-      navigate("/");
+      navigate("/profile");
     }
     // dispatch(reset());
   }, [isLoading, isError, isSuccess, user, message]);
 
   const onSuccess = async (res) => {
     console.log("res :>> ", res);
-    console.log("[Login Success] currentUser:", res.credential);
+    // console.log("[Login Success] currentUser:", res.credential);
     toast.success("Success verify by Google");
     loadingToastId.current = toast.loading("Logging in Campground...");
-    console.log("loadingToastId :>> ", loadingToastId.current);
+    // console.log("loadingToastId :>> ", loadingToastId.current);
     dispatch(googleLogin(res.credential));
   };
 
