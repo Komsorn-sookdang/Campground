@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="kDU4FmTOq4ENQ84ncTY3" name="Page-1">
-        <mxGraphModel dx="5028" dy="4504" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+        <mxGraphModel dx="2229" dy="2546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -162,22 +162,22 @@
                         <mxGeometry x="-1110" y="-1940" width="120" height="60" as="geometry"/>
                     </mxCell>
                 </UserObject>
-                <UserObject label="&lt;div style=&quot;display: flex; justify-content: center; text-align: center; align-items: baseline; font-size: 0; line-height: 1.25;margin-top: -2px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-size:13px;&quot;&gt;&amp;lt;&amp;lt;router&amp;gt;&amp;gt;&#10;&lt;/span&gt;&lt;span style=&quot;font-size:13px;font-weight: bold;&quot;&gt;:appointments&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" lucidchartObjectId=".hcaeaRzEovi" id="223">
+                <UserObject label="&lt;div style=&quot;display: flex; justify-content: center; text-align: center; align-items: baseline; font-size: 0; line-height: 1.25;margin-top: -2px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-size:13px;&quot;&gt;&amp;lt;&amp;lt;router&amp;gt;&amp;gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size:13px;font-weight: bold;&quot;&gt;:bookings&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" lucidchartObjectId=".hcaeaRzEovi" id="223">
                     <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=13;spacing=3.8;strokeColor=#282c33;strokeOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;strokeWidth=0.8;labelBackgroundColor=none;" parent="1" vertex="1">
                         <mxGeometry x="-795" y="-1940" width="120" height="60" as="geometry"/>
                     </mxCell>
                 </UserObject>
-                <UserObject label="&lt;div style=&quot;display: flex; justify-content: center; text-align: center; align-items: baseline; font-size: 0; line-height: 1.25;margin-top: -2px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-size:13px;&quot;&gt;&amp;lt;&amp;lt;controller&amp;gt;&amp;gt;&#10;&lt;/span&gt;&lt;span style=&quot;font-size:13px;font-weight: bold;&quot;&gt;:appointments&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" lucidchartObjectId=".hcaPj~bQkq." id="224">
+                <UserObject label="&lt;div style=&quot;display: flex; justify-content: center; text-align: center; align-items: baseline; font-size: 0; line-height: 1.25;margin-top: -2px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-size:13px;&quot;&gt;&amp;lt;&amp;lt;controller&amp;gt;&amp;gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size:13px;font-weight: bold;&quot;&gt;:bookings&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" lucidchartObjectId=".hcaPj~bQkq." id="224">
                     <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=13;spacing=3.8;strokeColor=#282c33;strokeOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;strokeWidth=0.8;labelBackgroundColor=none;" parent="1" vertex="1">
                         <mxGeometry x="-495" y="-1940" width="120" height="60" as="geometry"/>
                     </mxCell>
                 </UserObject>
-                <UserObject label="&lt;div style=&quot;display: flex; justify-content: center; text-align: center; align-items: baseline; font-size: 0; line-height: 1.25;margin-top: -2px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-size:13px;&quot;&gt;&amp;lt;&amp;lt;model&amp;gt;&amp;gt;&#10;&lt;/span&gt;&lt;span style=&quot;font-size:13px;font-weight: bold;&quot;&gt;:Appointment&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" lucidchartObjectId=".hcajEN6XElL" id="225">
+                <UserObject label="&lt;div style=&quot;display: flex; justify-content: center; text-align: center; align-items: baseline; font-size: 0; line-height: 1.25;margin-top: -2px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-size:13px;&quot;&gt;&amp;lt;&amp;lt;model&amp;gt;&amp;gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size:13px;font-weight: bold;&quot;&gt;:Booking&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" lucidchartObjectId=".hcajEN6XElL" id="225">
                     <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=13;spacing=3.8;strokeColor=#282c33;strokeOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;strokeWidth=0.8;labelBackgroundColor=none;" parent="1" vertex="1">
                         <mxGeometry x="-15" y="-1940" width="120" height="60" as="geometry"/>
                     </mxCell>
                 </UserObject>
-                <UserObject label="&lt;div style=&quot;display: flex; justify-content: center; text-align: center; align-items: baseline; font-size: 0; line-height: 1.25;margin-top: -2px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-size:13px;&quot;&gt;&amp;lt;&amp;lt;mongoDB&amp;gt;&amp;gt;&#10;&lt;/span&gt;&lt;span style=&quot;font-size:13px;font-weight: bold;&quot;&gt;:appointments&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" lucidchartObjectId=".hca3a7OGj4w" id="226">
+                <UserObject label="&lt;div style=&quot;display: flex; justify-content: center; text-align: center; align-items: baseline; font-size: 0; line-height: 1.25;margin-top: -2px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-size:13px;&quot;&gt;&amp;lt;&amp;lt;mongoDB&amp;gt;&amp;gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size:13px;font-weight: bold;&quot;&gt;:bookings&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" lucidchartObjectId=".hca3a7OGj4w" id="226">
                     <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=13;spacing=3.8;strokeColor=#282c33;strokeOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;strokeWidth=0.8;labelBackgroundColor=none;" parent="1" vertex="1">
                         <mxGeometry x="165" y="-1940" width="120" height="60" as="geometry"/>
                     </mxCell>
@@ -194,7 +194,7 @@
                         </mxGeometry>
                     </mxCell>
                 </UserObject>
-                <mxCell id="229" value="app.use('/appointments', appointments)" style="text;html=1;resizable=0;labelBackgroundColor=none;align=center;verticalAlign=middle;fontColor=#333333;fontSize=13.3;" parent="228" vertex="1">
+                <mxCell id="229" value="app.use('/bookings', bookings)" style="text;html=1;resizable=0;labelBackgroundColor=none;align=center;verticalAlign=middle;fontColor=#333333;fontSize=13.3;" parent="228" vertex="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint y="-8" as="offset"/>
                     </mxGeometry>
@@ -222,7 +222,7 @@
                         </mxGeometry>
                     </mxCell>
                 </UserObject>
-                <mxCell id="236" value="req.get('/appointments')" style="text;html=1;resizable=0;labelBackgroundColor=none;align=center;verticalAlign=middle;fontColor=#333333;fontSize=13.3;" parent="235" vertex="1">
+                <mxCell id="236" value="req.get('/bookings')" style="text;html=1;resizable=0;labelBackgroundColor=none;align=center;verticalAlign=middle;fontColor=#333333;fontSize=13.3;" parent="235" vertex="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint y="-7" as="offset"/>
                     </mxGeometry>
@@ -248,7 +248,7 @@
                         </mxGeometry>
                     </mxCell>
                 </UserObject>
-                <mxCell id="240" value="appointments" style="text;html=1;resizable=0;labelBackgroundColor=none;align=center;verticalAlign=middle;fontColor=#333333;fontSize=13.3;" parent="239" vertex="1">
+                <mxCell id="240" value="bookings" style="text;html=1;resizable=0;labelBackgroundColor=none;align=center;verticalAlign=middle;fontColor=#333333;fontSize=13.3;" parent="239" vertex="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint y="-7" as="offset"/>
                     </mxGeometry>
@@ -266,7 +266,7 @@
                         </mxGeometry>
                     </mxCell>
                 </UserObject>
-                <mxCell id="243" value="AppointmentSchema" style="text;html=1;resizable=0;labelBackgroundColor=none;align=center;verticalAlign=middle;fontColor=#333333;fontSize=13.3;" parent="242" vertex="1">
+                <mxCell id="243" value="BookingSchema" style="text;html=1;resizable=0;labelBackgroundColor=none;align=center;verticalAlign=middle;fontColor=#333333;fontSize=13.3;" parent="242" vertex="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint y="-7" as="offset"/>
                     </mxGeometry>
@@ -278,7 +278,7 @@
                         </mxGeometry>
                     </mxCell>
                 </UserObject>
-                <mxCell id="245" value="appointments" style="text;html=1;resizable=0;labelBackgroundColor=none;align=center;verticalAlign=middle;fontColor=#333333;fontSize=13.3;" parent="244" vertex="1">
+                <mxCell id="245" value="bookings" style="text;html=1;resizable=0;labelBackgroundColor=none;align=center;verticalAlign=middle;fontColor=#333333;fontSize=13.3;" parent="244" vertex="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint y="-7" as="offset"/>
                     </mxGeometry>
@@ -326,7 +326,7 @@
                         </mxGeometry>
                     </mxCell>
                 </UserObject>
-                <mxCell id="253" value="router.use&#10;(&quot;/:id/appointments&quot;,&#10;appointmentRouter)" style="text;html=1;resizable=0;labelBackgroundColor=none;align=center;verticalAlign=middle;fontColor=#333333;fontSize=13.3;" parent="252" vertex="1">
+                <mxCell id="253" value="router.use&lt;br&gt;(&quot;/:id/bookings&quot;,&lt;br&gt;bookingRouter)" style="text;html=1;resizable=0;labelBackgroundColor=none;align=center;verticalAlign=middle;fontColor=#333333;fontSize=13.3;" parent="252" vertex="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="-2" y="-25" as="offset"/>
                     </mxGeometry>
@@ -344,7 +344,7 @@
                         </mxGeometry>
                     </mxCell>
                 </UserObject>
-                <mxCell id="256" value="addAppointment" style="text;html=1;resizable=0;labelBackgroundColor=none;align=center;verticalAlign=middle;fontColor=#333333;fontSize=13.3;" parent="255" vertex="1">
+                <mxCell id="256" value="addBooking" style="text;html=1;resizable=0;labelBackgroundColor=none;align=center;verticalAlign=middle;fontColor=#333333;fontSize=13.3;" parent="255" vertex="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint y="-8" as="offset"/>
                     </mxGeometry>
@@ -417,7 +417,7 @@
                         </mxGeometry>
                     </mxCell>
                 </UserObject>
-                <mxCell id="268" value="req.post&lt;br&gt;('/campgrounds/:id/appointments')" style="text;html=1;resizable=0;labelBackgroundColor=none;align=center;verticalAlign=middle;fontColor=#333333;fontSize=13.3;" parent="267" vertex="1">
+                <mxCell id="268" value="req.post&lt;br&gt;('/campgrounds/:id/bookings')" style="text;html=1;resizable=0;labelBackgroundColor=none;align=center;verticalAlign=middle;fontColor=#333333;fontSize=13.3;" parent="267" vertex="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint y="-18" as="offset"/>
                     </mxGeometry>
@@ -451,7 +451,7 @@
                         </mxGeometry>
                     </mxCell>
                 </UserObject>
-                <mxCell id="274" value="appointment" style="text;html=1;resizable=0;labelBackgroundColor=none;align=center;verticalAlign=middle;fontColor=#333333;fontSize=13.3;" parent="273" vertex="1">
+                <mxCell id="274" value="booking" style="text;html=1;resizable=0;labelBackgroundColor=none;align=center;verticalAlign=middle;fontColor=#333333;fontSize=13.3;" parent="273" vertex="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint y="-8" as="offset"/>
                     </mxGeometry>
@@ -463,7 +463,7 @@
                         </mxGeometry>
                     </mxCell>
                 </UserObject>
-                <mxCell id="276" value="appointment" style="text;html=1;resizable=0;labelBackgroundColor=none;align=center;verticalAlign=middle;fontColor=#333333;fontSize=13.3;" parent="275" vertex="1">
+                <mxCell id="276" value="booking" style="text;html=1;resizable=0;labelBackgroundColor=none;align=center;verticalAlign=middle;fontColor=#333333;fontSize=13.3;" parent="275" vertex="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint y="-8" as="offset"/>
                     </mxGeometry>
@@ -476,7 +476,7 @@
                         </mxGeometry>
                     </mxCell>
                 </UserObject>
-                <mxCell id="278" value="AppointmentSchema" style="text;html=1;resizable=0;labelBackgroundColor=none;align=center;verticalAlign=middle;fontColor=#333333;fontSize=13.3;" parent="277" vertex="1">
+                <mxCell id="278" value="BookingSchema" style="text;html=1;resizable=0;labelBackgroundColor=none;align=center;verticalAlign=middle;fontColor=#333333;fontSize=13.3;" parent="277" vertex="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint y="-8" as="offset"/>
                     </mxGeometry>
@@ -541,7 +541,7 @@
                         </mxGeometry>
                     </mxCell>
                 </UserObject>
-                <mxCell id="291" value="app.use('/appointments', appointments)" style="text;html=1;resizable=0;labelBackgroundColor=none;align=center;verticalAlign=middle;fontColor=#333333;fontSize=13.3;" parent="290" vertex="1">
+                <mxCell id="291" value="app.use('/bookings', bookings)" style="text;html=1;resizable=0;labelBackgroundColor=none;align=center;verticalAlign=middle;fontColor=#333333;fontSize=13.3;" parent="290" vertex="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint y="-7" as="offset"/>
                     </mxGeometry>
@@ -569,7 +569,7 @@
                         </mxGeometry>
                     </mxCell>
                 </UserObject>
-                <mxCell id="298" value="req.get('/appointments/:id')" style="text;html=1;resizable=0;labelBackgroundColor=none;align=center;verticalAlign=middle;fontColor=#333333;fontSize=13.3;" parent="297" vertex="1">
+                <mxCell id="298" value="req.get('/bookings/:id')" style="text;html=1;resizable=0;labelBackgroundColor=none;align=center;verticalAlign=middle;fontColor=#333333;fontSize=13.3;" parent="297" vertex="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint y="-7" as="offset"/>
                     </mxGeometry>
@@ -595,7 +595,7 @@
                         </mxGeometry>
                     </mxCell>
                 </UserObject>
-                <mxCell id="302" value="appointment" style="text;html=1;resizable=0;labelBackgroundColor=none;align=center;verticalAlign=middle;fontColor=#333333;fontSize=13.3;" parent="301" vertex="1">
+                <mxCell id="302" value="booking" style="text;html=1;resizable=0;labelBackgroundColor=none;align=center;verticalAlign=middle;fontColor=#333333;fontSize=13.3;" parent="301" vertex="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint y="-7" as="offset"/>
                     </mxGeometry>
@@ -613,7 +613,7 @@
                         </mxGeometry>
                     </mxCell>
                 </UserObject>
-                <mxCell id="305" value="AppointmentSchema" style="text;html=1;resizable=0;labelBackgroundColor=none;align=center;verticalAlign=middle;fontColor=#333333;fontSize=13.3;" parent="304" vertex="1">
+                <mxCell id="305" value="BookingSchema" style="text;html=1;resizable=0;labelBackgroundColor=none;align=center;verticalAlign=middle;fontColor=#333333;fontSize=13.3;" parent="304" vertex="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint y="-7" as="offset"/>
                     </mxGeometry>
@@ -625,7 +625,7 @@
                         </mxGeometry>
                     </mxCell>
                 </UserObject>
-                <mxCell id="307" value="appointment" style="text;html=1;resizable=0;labelBackgroundColor=none;align=center;verticalAlign=middle;fontColor=#333333;fontSize=13.3;" parent="306" vertex="1">
+                <mxCell id="307" value="booking" style="text;html=1;resizable=0;labelBackgroundColor=none;align=center;verticalAlign=middle;fontColor=#333333;fontSize=13.3;" parent="306" vertex="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint y="-7" as="offset"/>
                     </mxGeometry>
@@ -656,7 +656,7 @@
                         </mxGeometry>
                     </mxCell>
                 </UserObject>
-                <mxCell id="315" value="app.use('/appointments', appointments)" style="text;html=1;resizable=0;labelBackgroundColor=none;align=center;verticalAlign=middle;fontColor=#333333;fontSize=13.3;" parent="314" vertex="1">
+                <mxCell id="315" value="app.use('/bookings', bookings)" style="text;html=1;resizable=0;labelBackgroundColor=none;align=center;verticalAlign=middle;fontColor=#333333;fontSize=13.3;" parent="314" vertex="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint y="-8" as="offset"/>
                     </mxGeometry>
@@ -674,7 +674,7 @@
                         </mxGeometry>
                     </mxCell>
                 </UserObject>
-                <mxCell id="318" value="updateAppointment" style="text;html=1;resizable=0;labelBackgroundColor=none;align=center;verticalAlign=middle;fontColor=#333333;fontSize=13.3;" parent="317" vertex="1">
+                <mxCell id="318" value="updateBooking" style="text;html=1;resizable=0;labelBackgroundColor=none;align=center;verticalAlign=middle;fontColor=#333333;fontSize=13.3;" parent="317" vertex="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint y="-8" as="offset"/>
                     </mxGeometry>
@@ -707,7 +707,7 @@
                         </mxGeometry>
                     </mxCell>
                 </UserObject>
-                <mxCell id="323" value="req.patch('/appointments/:id')" style="text;html=1;resizable=0;labelBackgroundColor=none;align=center;verticalAlign=middle;fontColor=#333333;fontSize=13.3;" parent="322" vertex="1">
+                <mxCell id="323" value="req.patch('/bookings/:id')" style="text;html=1;resizable=0;labelBackgroundColor=none;align=center;verticalAlign=middle;fontColor=#333333;fontSize=13.3;" parent="322" vertex="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint y="-8" as="offset"/>
                     </mxGeometry>
@@ -724,7 +724,7 @@
                         </mxGeometry>
                     </mxCell>
                 </UserObject>
-                <mxCell id="326" value="appointment" style="text;html=1;resizable=0;labelBackgroundColor=none;align=center;verticalAlign=middle;fontColor=#333333;fontSize=13.3;" parent="325" vertex="1">
+                <mxCell id="326" value="booking" style="text;html=1;resizable=0;labelBackgroundColor=none;align=center;verticalAlign=middle;fontColor=#333333;fontSize=13.3;" parent="325" vertex="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint y="-8" as="offset"/>
                     </mxGeometry>
@@ -748,7 +748,7 @@
                         </mxGeometry>
                     </mxCell>
                 </UserObject>
-                <mxCell id="330" value="appointment" style="text;html=1;resizable=0;labelBackgroundColor=none;align=center;verticalAlign=middle;fontColor=#333333;fontSize=13.3;" parent="329" vertex="1">
+                <mxCell id="330" value="booking" style="text;html=1;resizable=0;labelBackgroundColor=none;align=center;verticalAlign=middle;fontColor=#333333;fontSize=13.3;" parent="329" vertex="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint y="-8" as="offset"/>
                     </mxGeometry>
@@ -760,7 +760,7 @@
                         </mxGeometry>
                     </mxCell>
                 </UserObject>
-                <mxCell id="332" value="AppointmentSchema" style="text;html=1;resizable=0;labelBackgroundColor=none;align=center;verticalAlign=middle;fontColor=#333333;fontSize=13.3;" parent="331" vertex="1">
+                <mxCell id="332" value="BookingSchema" style="text;html=1;resizable=0;labelBackgroundColor=none;align=center;verticalAlign=middle;fontColor=#333333;fontSize=13.3;" parent="331" vertex="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint y="-8" as="offset"/>
                     </mxGeometry>
@@ -814,7 +814,7 @@
                         </mxGeometry>
                     </mxCell>
                 </UserObject>
-                <mxCell id="341" value="app.use('/appointments', appointments)" style="text;html=1;resizable=0;labelBackgroundColor=none;align=center;verticalAlign=middle;fontColor=#333333;fontSize=13.3;" parent="340" vertex="1">
+                <mxCell id="341" value="app.use('/bookings', bookings)" style="text;html=1;resizable=0;labelBackgroundColor=none;align=center;verticalAlign=middle;fontColor=#333333;fontSize=13.3;" parent="340" vertex="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint y="-9" as="offset"/>
                     </mxGeometry>
@@ -832,7 +832,7 @@
                         </mxGeometry>
                     </mxCell>
                 </UserObject>
-                <mxCell id="344" value="deleteAppointment" style="text;html=1;resizable=0;labelBackgroundColor=none;align=center;verticalAlign=middle;fontColor=#333333;fontSize=13.3;" parent="343" vertex="1">
+                <mxCell id="344" value="deleteBooking" style="text;html=1;resizable=0;labelBackgroundColor=none;align=center;verticalAlign=middle;fontColor=#333333;fontSize=13.3;" parent="343" vertex="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint y="-9" as="offset"/>
                     </mxGeometry>
@@ -865,7 +865,7 @@
                         </mxGeometry>
                     </mxCell>
                 </UserObject>
-                <mxCell id="349" value="req.delete('/appointments/:id')" style="text;html=1;resizable=0;labelBackgroundColor=none;align=center;verticalAlign=middle;fontColor=#333333;fontSize=13.3;" parent="348" vertex="1">
+                <mxCell id="349" value="req.delete('/bookings/:id')" style="text;html=1;resizable=0;labelBackgroundColor=none;align=center;verticalAlign=middle;fontColor=#333333;fontSize=13.3;" parent="348" vertex="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint y="-9" as="offset"/>
                     </mxGeometry>
@@ -918,7 +918,7 @@
                         </mxGeometry>
                     </mxCell>
                 </UserObject>
-                <mxCell id="358" value="AppointmentSchema" style="text;html=1;resizable=0;labelBackgroundColor=none;align=center;verticalAlign=middle;fontColor=#333333;fontSize=13.3;" parent="357" vertex="1">
+                <mxCell id="358" value="BookingSchema" style="text;html=1;resizable=0;labelBackgroundColor=none;align=center;verticalAlign=middle;fontColor=#333333;fontSize=13.3;" parent="357" vertex="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint y="-9" as="offset"/>
                     </mxGeometry>
@@ -1029,7 +1029,7 @@
                         </mxGeometry>
                     </mxCell>
                 </UserObject>
-                <mxCell id="375" value="getAppointments" style="text;html=1;resizable=0;labelBackgroundColor=none;align=center;verticalAlign=middle;fontColor=#333333;fontSize=13.3;" parent="374" vertex="1">
+                <mxCell id="375" value="getBookings" style="text;html=1;resizable=0;labelBackgroundColor=none;align=center;verticalAlign=middle;fontColor=#333333;fontSize=13.3;" parent="374" vertex="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint y="-7" as="offset"/>
                     </mxGeometry>
@@ -1080,7 +1080,7 @@
                         </mxGeometry>
                     </mxCell>
                 </UserObject>
-                <mxCell id="382" value="getAppointment" style="text;html=1;resizable=0;labelBackgroundColor=none;align=center;verticalAlign=middle;fontColor=#333333;fontSize=13.3;" parent="381" vertex="1">
+                <mxCell id="382" value="getBooking" style="text;html=1;resizable=0;labelBackgroundColor=none;align=center;verticalAlign=middle;fontColor=#333333;fontSize=13.3;" parent="381" vertex="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint y="-7" as="offset"/>
                     </mxGeometry>
@@ -1100,7 +1100,7 @@
                     </mxGeometry>
                 </mxCell>
                 <UserObject label="" lucidchartObjectId=".hcapJE0vVqo" id="385">
-                    <mxCell style="html=1;jettySize=18;whiteSpace=wrap;fontSize=13;strokeColor=#282c33;strokeOpacity=100;strokeWidth=0.8;rounded=1;arcSize=12;edgeStyle=orthogonalEdgeStyle;startArrow=block;startFill=1;endArrow=none;exitX=0.042;exitY=0.161;exitPerimeter=0;entryX=1.02;entryY=0.569;entryPerimeter=0;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+                    <mxCell style="html=1;jettySize=18;whiteSpace=wrap;fontSize=13;strokeColor=#282c33;strokeOpacity=100;strokeWidth=0.8;rounded=1;arcSize=12;edgeStyle=orthogonalEdgeStyle;startArrow=block;startFill=1;endArrow=none;exitX=0.042;exitY=0.161;exitPerimeter=0;entryX=1.02;entryY=0.569;entryPerimeter=0;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" parent="1" edge="1">
                         <mxGeometry width="100" height="100" relative="1" as="geometry">
                             <Array as="points"/>
                             <mxPoint x="31.259999999999764" y="-358.5100000000002" as="sourcePoint"/>
@@ -1108,7 +1108,7 @@
                         </mxGeometry>
                     </mxCell>
                 </UserObject>
-                <mxCell id="386" value="create(req.body)" style="text;html=1;resizable=0;labelBackgroundColor=none;align=center;verticalAlign=middle;fontColor=#333333;fontSize=13.3;" vertex="1" parent="385">
+                <mxCell id="386" value="create(req.body)" style="text;html=1;resizable=0;labelBackgroundColor=none;align=center;verticalAlign=middle;fontColor=#333333;fontSize=13.3;" parent="385" vertex="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="-2" y="-10" as="offset"/>
                     </mxGeometry>
