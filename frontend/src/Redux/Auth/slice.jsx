@@ -16,6 +16,7 @@ export const googleLogin = createAsyncThunk(
   async (tokenId, thunkAPI) => {
     try {
       const res = await authServices.googleLoginReq(tokenId);
+      localStorage.setItem("JWTtoken", res.data.token);
       return res.data;
     } catch (error) {
       console.log(error);

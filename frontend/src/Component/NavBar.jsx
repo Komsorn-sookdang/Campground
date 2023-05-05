@@ -84,7 +84,13 @@ const NavBar = () => {
 
   return (
     <Container hidden={show}>
-      <Logo>CAMPGROUND</Logo>
+      <Logo
+        onClick={() => {
+          navigate("/");
+        }}
+      >
+        CAMPGROUND
+      </Logo>
       <Options>
         <Option>Home</Option>
         <Option>Blog</Option>
